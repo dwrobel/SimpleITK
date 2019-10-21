@@ -18,7 +18,7 @@ matrix:
       sudo: required
 
 before_script:
-  - sudo apt-get install swig lua5.3 libinsighttoolkit4-dev doxygen graphviz
+  - sudo apt-get install swig lua5.3 libinsighttoolkit4-dev libgdcm2-dev libfftw3-dev libminc-dev doxygen graphviz
   - cmake --version
   - mkdir -p ${SIMPLEITK_BUILD_DIR}
 
